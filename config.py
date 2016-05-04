@@ -1,7 +1,7 @@
 import os
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-
+FLASKY_ADMIN = "qinzhou_zheng@126.com"
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or '123456'
